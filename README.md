@@ -33,5 +33,5 @@ python3 migrate.py migrate
 
 To run web server
 ```
-python3 migrate runserver
+python3 migrate.py runserver
 ```
