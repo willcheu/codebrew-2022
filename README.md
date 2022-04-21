@@ -22,3 +22,16 @@ source venv/bin/activate
 # Install Python requirements
 pip install -r requirements.txt
 ```
+
+## Run project
+
+If you have changed models file run
+```bash
+python3 migrate.py makemigration
+python3 migrate.py migrate
+```
+
+To run web server
+```
+python3 migrate runserver
+```
