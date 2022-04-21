@@ -35,3 +35,9 @@ To run web server
 ```
 python3 manage.py runserver
 ```
+
+Open the web app in your browser
+```
+http://localhost:8000
+```
+
