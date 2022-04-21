@@ -27,11 +27,11 @@ pip install -r requirements.txt
 
 If you have changed models file run
 ```bash
-python3 migrate.py makemigration
-python3 migrate.py migrate
+python3 manage.py makemigration
+python3 manage.py migrate
 ```
 
 To run web server
 ```
-python3 migrate.py runserver
+python3 manage.py runserver
 ```
