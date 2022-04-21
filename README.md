@@ -16,7 +16,7 @@ cd codebrew-2022
 Run these scripts in terminal in the project directory
 ```bash
 pip3 install virtualenv --user
-virtualenv venv
+python3 -m virtualenv venv
 # Activate virtualenv
 source venv/bin/activate
 # Install Python requirements
